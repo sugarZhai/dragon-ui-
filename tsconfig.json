@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "strictNullChecks": true,
+    "moduleResolution": "node",
+    "jsx": "react",
+    "noUnusedParameters": true,
+    "noUnusedLocals": true,
+    "importHelpers": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "es6",
+    "types": [
+      "classnames",
+      "react",
+      "react-dom"
+    ]
+  },
+  "include": [
+    "components/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "lib",
+    "es"
+  ],
+  "compileOnSave": false
+}
